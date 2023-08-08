@@ -14,6 +14,7 @@ const formatedToNumber = (string) => {
   const formattedString = string.toString().replace(/\D/g,'');
   return parseInt(formattedString, 10);
 };
+// eslint-disable-next-line no-console
 console.log(formatedToNumber(1.5));
 
 
