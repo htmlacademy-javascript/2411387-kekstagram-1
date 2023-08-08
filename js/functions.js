@@ -40,11 +40,7 @@ const myPadStart = (string, length, padString) => {
 // eslint-disable-next-line no-console
 console.log(myPadStart('q', 4, 'we'));
 
-const checkStringLength = (string,length) => {
-  if (string.length <= length) {
-    return true;
-  }
-  return string.length <= length;
-};
+
+const checkStringLength = (string,length) => string.length <= length;
 // eslint-disable-next-line no-console
 console.log(checkStringLength('проверяемая строка', 10));
