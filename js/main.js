@@ -1,7 +1,6 @@
-import './data.js';
 
 import {describePhotos} from './data.js';
-// eslint-disable-next-line no-console
-console.log(
-  describePhotos()
-);
+import {createGallery} from './usersPhoto.js';
+const photos = describePhotos();
+createGallery(photos);
+
