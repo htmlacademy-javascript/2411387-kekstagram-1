@@ -37,5 +37,10 @@ const getComment = () => {
     name: getRandomArrayElement(NAMES)
   };
 };
-export {getRandomInteger, getRandomArrayElement, getComment};
+
+const isEscapeKey = (evt) => evt.key === 'Escape';
+
+
+export {getRandomInteger, getRandomArrayElement, getComment, isEscapeKey};
+
 
