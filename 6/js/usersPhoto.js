@@ -27,7 +27,7 @@ const createGallery = (photos) => {
     }
     evt.preventDefault();
 
-    const photo = photos.find((item) => item.id === +photoElement.dataset.photoid);
+    const photo = photos.find((item) => item.id === +photoElement.dataset.photoId);
     openBigPhoto(photo);
   });
 
